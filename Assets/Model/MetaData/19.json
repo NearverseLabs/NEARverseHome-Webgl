@@ -1,0 +1,39 @@
+{
+    "name": "RocketBois 19",
+    "description": "2000 Metaverse Ready 3D NFTs. Building 3D Metahomes, WL Management platform",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Backgrounds",
+            "value": "Sun"
+        },
+        {
+            "trait_type": "Backpacks",
+            "value": "Pink Wings"
+        },
+        {
+            "trait_type": "Handheld Weapon",
+            "value": "None"
+        },
+        {
+            "trait_type": "Head Mount",
+            "value": "McDonalds Cap"
+        },
+        {
+            "trait_type": "Helmet and Suit",
+            "value": "Solid Green "
+        },
+        {
+            "trait_type": "Holographic Text",
+            "value": "Pamp it"
+        },
+        {
+            "trait_type": "Pendant",
+            "value": "None"
+        },
+        {
+            "trait_type": "Metahome",
+            "value": "Delta"
+        }
+    ]
+}

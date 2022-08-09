@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class click2 : MonoBehaviour
+{
+	public GameObject panel;
+	private GameObject[] all_panels; 
+    void OnMouseUp()
+	{
+		all_panels = GameObject.FindGameObjectsWithTag("Panel");
+		foreach (GameObject p in all_panels)
+		{
+			p.SetActive(false);
+
+		}
+		Application.OpenURL(Url);
+    }	
+	
+}

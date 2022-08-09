@@ -1,0 +1,39 @@
+{
+    "name": "RocketBois 830",
+    "description": "2000 Metaverse Ready 3D NFTs. Building 3D Metahomes, WL Management platform",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Backgrounds",
+            "value": "Solid Green"
+        },
+        {
+            "trait_type": "Backpacks",
+            "value": "Pink Wings"
+        },
+        {
+            "trait_type": "Handheld Weapon",
+            "value": "Ak47"
+        },
+        {
+            "trait_type": "Head Mount",
+            "value": "None"
+        },
+        {
+            "trait_type": "Helmet and Suit",
+            "value": "President"
+        },
+        {
+            "trait_type": "Holographic Text",
+            "value": "NGMI"
+        },
+        {
+            "trait_type": "Pendant",
+            "value": "Pearl"
+        },
+        {
+            "trait_type": "Metahome",
+            "value": "Alpha"
+        }
+    ]
+}

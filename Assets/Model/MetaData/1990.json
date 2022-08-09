@@ -1,0 +1,39 @@
+{
+    "name": "RocketBois 1990",
+    "description": "2000 Metaverse Ready 3D NFTs. Building 3D Metahomes, WL Management platform",
+    "image": "",
+    "attributes": [
+        {
+            "trait_type": "Backgrounds",
+            "value": "Solid Blue"
+        },
+        {
+            "trait_type": "Backpacks",
+            "value": "Firefighter"
+        },
+        {
+            "trait_type": "Handheld Weapon",
+            "value": "Lightsaber"
+        },
+        {
+            "trait_type": "Head Mount",
+            "value": "None"
+        },
+        {
+            "trait_type": "Helmet and Suit",
+            "value": "Solid Purple"
+        },
+        {
+            "trait_type": "Holographic Text",
+            "value": "Doge is the future of finance"
+        },
+        {
+            "trait_type": "Pendant",
+            "value": "None"
+        },
+        {
+            "trait_type": "Metahome",
+            "value": "Delta"
+        }
+    ]
+}
