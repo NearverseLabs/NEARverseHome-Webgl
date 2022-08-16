@@ -32,6 +32,7 @@ public class click : MonoBehaviour
 	
 	IEnumerator OnMouseUp()
 	{
+        Debug.Log("OnMouseUp");
 		all_panels = GameObject.FindGameObjectsWithTag("Panel");
 		foreach (GameObject p in all_panels)
 		{

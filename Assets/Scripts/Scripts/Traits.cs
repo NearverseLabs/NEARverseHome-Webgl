@@ -19,12 +19,6 @@ public class attData
     public string value;     
 }
 
-//[System.Serializable]
-//public class JsonDataList
-//{
-//    public JsonData[] items;
-//}
-
 public class Traits : MonoBehaviour
 {
     //public JsonData myMetaData = new JsonData();
@@ -58,7 +52,6 @@ public class Traits : MonoBehaviour
             m_dict.Add(this.gameObject.transform.GetChild(1).GetChild(1).GetChild(0).GetChild(2).GetChild(0).GetChild(0).GetChild(2).GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(i).name,
             this.gameObject.transform.GetChild(1).GetChild(1).GetChild(0).GetChild(2).GetChild(0).GetChild(0).GetChild(2).GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(i).gameObject);
         }
-        Debug.Log("-----------------" + m_dict["Funds are Safu"]);
     }
 
     // Update is called once per frame
@@ -67,12 +60,14 @@ public class Traits : MonoBehaviour
 
     }
 
-    public void LoadCharacter()
+    public void LoadCharacter(string jsonString)
     {
-        StreamReader reader = new StreamReader("Assets/Model/MetaData/1.json");
-        string json = reader.ReadToEnd();
-        JsonData traits = JsonUtility.FromJson<JsonData>(json);
-        Debug.Log(traits.attributes.Length);
+        //StreamReader reader = new StreamReader("Assets/Model/MetaData/751.json");
+        //Debug.Log("stream reader: " + reader);
+        //string json = reader.ReadToEnd();
+        Debug.Log("Json String --------: " + jsonString);
+        JsonData traits = JsonUtility.FromJson<JsonData>(jsonString);
+        Debug.Log("traits: " + traits);
 
         for (int i = 0; i < traits.attributes.Length; i++)
         {
@@ -81,12 +76,5 @@ public class Traits : MonoBehaviour
                 m_dict[traits.attributes[i].value].SetActive(true);
             }
         }
-
-        //Debug.Log("here");
-        //knife.SetActive(true);
-        //jetpack.SetActive(true);
-        //near.SetActive(true);
-        //antena.SetActive(true);
-        //letter.SetActive(true);
     }
 }

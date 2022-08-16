@@ -39,9 +39,7 @@ public class imagescript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Debug.Log("start coroutine");
-        //StartCoroutine(ViewGifCoroutine("https://nobrainersnft.com/static/media/eth_spin.7fd5faac.gif"));
-        //StartCoroutine(loadSpriteImageFromUrl(myMetaData.items[i].media, i));
+
     }
 
     // Update is called once per frame
@@ -50,12 +48,6 @@ public class imagescript : MonoBehaviour
         
     }
 
-    //public void SetGifImages(List<UniGif.GifTexture> _gifImgs)
-    //{
-    //    m_gifTextureList = _gifImgs;
-    //    m_gifTextureIndex = 0;
-    //    m_delayTime = Time.time;
-    //}
     public void DisplaySprite(string jsonData)
     {
         Debug.Log("jsonString" + jsonData);
@@ -67,7 +59,7 @@ public class imagescript : MonoBehaviour
         //var metadata = JsonHelper.FromJson(metadata);
         //Debug.Log("jsonarray---------" + metadata);
 
-        myMetaData = JsonUtility.FromJson<MetaDataList>(testString);
+        myMetaData = JsonUtility.FromJson<MetaDataList>(jsonData);
         Debug.Log("Array-------------" + myMetaData.GetType());
 
         //StartCoroutine(ViewGifCoroutine());

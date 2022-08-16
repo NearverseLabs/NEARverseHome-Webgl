@@ -13,7 +13,7 @@
         },
         {
             "trait_type": "Handheld Weapon",
-            "value": "Lightsaber"
+            "value": "LightSaber"
         },
         {
             "trait_type": "Head Mount",
@@ -25,7 +25,7 @@
         },
         {
             "trait_type": "Holographic Text",
-            "value": "Future is $near"
+            "value": "Future is $NEAR"
         },
         {
             "trait_type": "Pendant",

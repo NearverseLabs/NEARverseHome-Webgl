@@ -37,18 +37,12 @@ public class WalletController : MonoBehaviour
     public void displayPhotos()
     {
         Getnfts();
-        //for(int i = 0; i < myphotos.length; i ++)
-        //{
-
-        //}
     }
     public void ChangeButtonText(string btnText)
     {
         btnTxt.text = btnText;
-        Debug.Log("button text: --------------------" + btnTxt.text);
         if (btnText == "Disconnect Wallet")
         {
-            Debug.Log("tried to connect wallet---------------");
             displayPhotos();
         }
     }
